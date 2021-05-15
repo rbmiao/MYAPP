@@ -1,0 +1,9 @@
+version: 2.1
+
+jobs: 
+  build:
+    working_directory: ~/MYAPP
+    docker:
+      - image: "ruby"
+    steps:
+      - checkout
